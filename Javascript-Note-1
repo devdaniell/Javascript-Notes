@@ -1,0 +1,139 @@
+
+================================-JAVASCRIPT-Chapter-1================================
+
+JS is a scripting language not a programming language cause it cannot compile itself.
+It's is an event driven scripting language.
+Js is used for eventhandling.
+All valid JS statement must be terminated by a semicolon(;)
+The engine that your browser uses to execute your JS code is the V-8 engine
+---------------------------KeyWords--------------------
+******reserved words*****
+-For
+-if
+-else
+-in
+-in
+-of
+-as
+-return
+-continue
+-break
+-while
+-do
+-function
+-class
+-let
+-var
+-async
+-try
+-catch
+-finally
+-switch
+-case
+-default and much more...
+
+------It is a high level scripting language cause it's words/syntax is very close to english----
+============================    Identifiers   ======================================
+ Identifiers Are names that we the developers give diff parts of our programs to identify it...
+ **Naming Covention(Points to consider when naming an identifier)
+	1-identifiers can contain alphanumerics
+	2-id's can not have symbols except the (_)underscore
+	3-id's cannot contain whitespace(a space produced with the *space/tab/enter key*
+	4-id's cannot start with numbers
+	5-id names should and descriptive
+	6-id's should be written in all lowercase if it contains one wordm else should be written camelCase 
+          or should be written in all UPPERCASE if it is a constant
+	7-id's are case sensitive i.e age is different from Age
+	8-keywords cannot be used as identifiers
+ 
+====================	Types of Identifiers  ==========================
+	1-Variable Names
+	2-Object Name
+	3-Constant Name
+	4-Function Name 
+	5-Class Name
+------------------------------------------------------------
+*******Syntax Parsing is basically js trying to disect and understand your code in order to run****
+
+
+----------------------------------Variables------------------------------
+ A name attached to a container to store data.
+ It is called a variable because it's value can change
+*****Variable Declaration-means to make an identifier known to the programming environment
+ In declaring a variable we use the keywords var, let. 
+          note to self: "var" is not to be used anymore cause it leaks memory but rather "let"
+                   i.e. var age;  (is wrong)
+                        let age;  (is accpetable)
+
+==============================   Variable Initialization   ===================================
+It is the first value assigned to a newly decalred variable
+  Variable initialization at the point of declaration "let age = 16" or "let age=16, weight=15, height=6.5"
+
+============================ CONSTANT  =================================
+An identifier whose value cannot change after it has been declared
+We declare constants using the keyword const.
+Constants are written in all UPPERCASE     
+Constants  declared at the point of initialization
+
+			=====================  COMMENTS  =============
+~A comment is a section of your code that you want to be ignored by your translator.
+~It helps us describe our code.
+~It can also be used to temporarily ignore existing  valid JS statements
+	              ============= types of Comments========
+~single line comment(//)
+~multiline comment (/* your comment goes here*/)
+~ Javascript Documentation(/**your comment goes here*/)-
+======================================= OPERATORS  ================================
+                   	OPERATORS -Are symbols used to perform specific operations..
+					  GROUP OF OPEARTORS
+			1~ Unary Operator -Requires 1 operand to perform its operations
+			2~ Binary Operator -Require 2 operand to perform its operations
+			2~ Tenary Operator -Require 3 operand to perform its operations
+
+			Example: x = 3 + 2; where operands=x,3,2 and operator=(=,+)
+
+
+            OPERANDS - Are values or Identifiers containing values that operators use to perform their operations
+	    Statement - A valid Javascript Statement line-of-code that is terminated by a semi-colon
+	    Expression - An expression can be part of a statement, which after being evaluated transforms to a value
+
+===========================================  TYPES OF OPERATORS  =============================
+                1) Assignment Operator ( = ) it is used to assign a value or the value of an identifier on the R-H-S of the
+                   operator to an identifir on the L-H-S of the operator. e'g x=5 not 5=x 
+                
+		 2) Arithmetic Operators
+                    (a) Arithmetic Addition OPerator (+)         e'g' 14+3
+                    (b) Arithmetic substraction OPerator (-)     e'g' 14-3
+                    (c) Arithmetic Multiplication OPerator (*)   e'g' 14*3
+                    (d) Arithmetic Division OPerator (/)         e'g' 14/3
+                    (e) Arithmetic Exponential OPerator (**)     e'g' 14**3
+                    (f) Arithmetic Modulus OPerator (%)          e'g' 14%3
+                        --The modulus operator returns the remainder of an arithmetic division operation
+                
+		 3) Arithmetic  Assignment Operators
+                    (a) Arithmetic Addition Assignment OPerator (+=)         e'g' x += 3
+                        -for incrementing and existing identifier
+                    (b) Arithmetic substraction Assignment OPerator (-)     e'g' x -= 3
+                    (c) Arithmetic Multiplication Assignment OPerator (*)   e'g' x *= 3
+                    (d) Arithmetic Division Assignment OPerator (/)         e'g' x /= 3
+                    (e) Arithmetic Exponential Assignment OPerator (**)     e'g' x **= 3
+                    (f) Arithmetic Modulus Assignment OPerator (%)          e'g' x %= 3
+
+		4) Comparison Operators(After Evaluation returns a boolean value)
+		     a) Greater Than ( > ) 	E.g: X = 13 > 4
+                     b) Less Than ( < ) E.G. X = 13 < 4
+    		     c) Greater than ( >= )  E.g. x = 40 >= ((10 % 5) **2);
+                     d) Less Than or Equal to ( <= )  E.g. X = ((7 % 3)**2) <= ((12 % 3) + 15)
+                     e) Equals to ( == ) E.g: x == 15 == 7
+                     f) Not equals to ( != ) E.g x == 15 != 7;
+                     g) Strictly equal to ( === )
+                     h) Not Strictly equal to ( !== )
+ 
+
+
+
+
+
+
+
+
