@@ -1,0 +1,69 @@
+============================  TYPES OF OPERATORS cont'd ==========================
+  5)Logical Operators(It requires it operands be boolean and it evaluates to boolean)
+           :: TRUTH TABLE ::
+            AND, OR, NOT
+        a) Logical AND operator ( && )
+           -Returns true IF AND ONLY IF both it's operands are true.
+           :: AND Table ::    
+           op1     op2     result
+            T       T         T
+            T       F         F
+            F       T         F
+            F       F         F
+
+        b) Logical OR operator ( || )
+           -Returns true IF atleast one of it's operands are true.
+           :: OR Table ::    
+           op1     op2     result
+            T       T         T
+            T       F         T
+            F       T         T
+            F       F         F
+
+        c) Logical NOT operator ( ! )
+           -It inverses/negates it's operands.
+           :: AND Table ::    
+           op1          result
+            T              F
+            F              T
+
+  6). Bitwise Operator -(performs operations in 0's and 1's or binary)
+     a). Bitwise AND Operators ( & )
+     b). Bitwise OR Operators ( | )
+     c). Bitwise NOT Operators ( ~ )
+     d). Bitwise XOR Operators ( ^ ) (give true only and if only one of the operator is true)
+      op1   op2  result
+       T     T     F
+       F     F     F
+       T     F     T
+       F     T     T
+     e). Bitwise Left shift Operators ( << )
+     f). Bitwise Right Shift Operators ( >> )
+     g). Bitwise Righ Shift with zero Operators ( >>> )     
+       
+       00000000 - 0
+       00000001 - 1
+       00000010 - 2
+       00000011 - 3
+       00000100 - 4
+       00000111 - 5
+       00001000 - 6
+       00001111 - 7
+==========================================================================================================================================================
+
+=====================================================================!! DATA TYPES !!=====================================================================
+      
+        a)Strings are alphanumerics, numbers and symbols.String values must be enclosed in single or double quotes E.g Name = "BODE" school="new horizons".
+
+        b) Numbers can be whole numbers(integers) or decimal-numbers(float/double). No discrimination in the type of numbers in javascript.E.g. let height=6.5
+          , num =32.
+        c)Boolean  can only assume a true or false. Must not be quoted . E.g let bolexists=false; let bolhasEaten=true.
+        f) function
+        g) Object
+
+
+       ***string concatenation: means string joining.The arithmetic addition operator doubles as a concatenator if at least one of it's operands is 
+                                        astring rather than performing an arithmetic operation.***
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+===============================================  STRING FUNCTIION   =======================================================================
+    ~it is an array of characters.
